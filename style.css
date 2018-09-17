@@ -2,13 +2,17 @@
 
 #page {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
 
 .id {
     grid-column-start:1;
     grid-row-start:1;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    
 }
 
 #footer {
@@ -33,4 +37,9 @@
 .tab {
     padding: 15px;
     text-align: left;
+    border-spacing: 40px;
+    padding: 40px;
+    margin: 40px;
+    border-color: white;
+    
 }
