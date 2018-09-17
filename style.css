@@ -11,4 +11,26 @@
     grid-row-start:1;
 }
 
+#footer {
+    background: #eee;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
 
+#fb{
+   
+}
+
+#ln {
+   
+}
+
+#gth {
+    
+}
+
+.tab {
+    padding: 15px;
+    text-align: left;
+}
