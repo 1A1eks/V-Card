@@ -1,8 +1,11 @@
-
+body {
+    margin:0;
+}
 
 #page {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
     
 }
 
@@ -12,8 +15,32 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 250px;
+    grid-column-gap: 10px;
+    background: #6495ED;
     
 }
+
+tr:hover {
+    background:  	#8A2BE2;
+}
+
+.tab {
+     background: #6495ED;
+    
+}
+
+.tab1{
+    margin:10%;
+    background: #6495ED;
+    justify-content: center;
+    text-align: center;
+}
+
+td {
+    height: 35px;
+    vertical-align: bottom;
+}
+
 
 #footer {
     background: #eee;
@@ -21,6 +48,7 @@
     flex-wrap:wrap;
     justify-content: center;
 }
+
 
 #fb{
    
@@ -31,15 +59,5 @@
 }
 
 #gth {
-    
-}
-
-.tab {
-    padding: 15px;
-    text-align: left;
-    border-spacing: 40px;
-    padding: 40px;
-    margin: 40px;
-    border-color: white;
     
 }
