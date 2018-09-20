@@ -2,4 +2,4 @@
 
 url: https://1a1eks.github.io/V-Card/
 
-screenshot:<img src="Images/Screenshot-V-card.png>
+screenshot:<img src="images/Screenshot-V-card.png>
