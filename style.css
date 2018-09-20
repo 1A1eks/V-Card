@@ -1,6 +1,5 @@
 body {
-    margin:auto;
-    
+    margin:auto;    
     max-width:950px;
     margin-top: 2%;
 }
@@ -13,9 +12,7 @@ body {
     border-color: #eee;
     border: 2px solid #eee;
     border-style:dashed;
-    border-bottom: none;
-    
-    
+    border-bottom: none;    
 }
 
 .id {
@@ -27,9 +24,7 @@ body {
     max-width: 250px;
     background: #6495ED;
     margin-left:5px;
-    padding:2%;
-    
-    
+    padding:2%;    
 }
 
 #namefoto {
@@ -42,16 +37,15 @@ body {
 }
 
 tr:hover  .ans  {
-    background-color:  	#8A2BE2;
+    background-color: #8A2BE2;
     border: 2px;
-    border-color: 	#8A2BE2;
+    border-color: #8A2BE2;
     border-style: inset ;
     border-radius: 4px;
 }
 
 .tab {
-     background: #6495ED;
-    
+     background: #6495ED;    
 }
 
 .ask {
@@ -66,35 +60,22 @@ tr:hover  .ans  {
     text-align: center;
 }
 
-.ans {
-    
-}
-
 td {
     height: 35px;
     vertical-align: bottom;
 }
 
-
-#footer {
+nav {
     background: #eee;
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
 }
 
-footer > a {
+nav > a {
     margin-left: 10%;
 }
 
 #fb{
    margin-left: 0%;
-}
-
-#ln {
-   
-}
-
-#gth {
-    
 }
