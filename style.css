@@ -1,6 +1,8 @@
 body {
-    margin:0;
+    margin:auto;
     background:#6495ED;
+    max-width:950px;
+    margin-top: 2%;
 }
 
 #page {
@@ -8,6 +10,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     
     grid-column-gap: 10px;
+    border-color: #eee;
+    border: 2px solid #eee;
+    border-style:dashed;
+    border-bottom: none;
     
     
 }
@@ -17,9 +23,11 @@ body {
     grid-row-start:1;
     display: flex;
     flex-wrap: wrap;
+    min-width: 250px;
     max-width: 250px;
     background: #6495ED;
     margin-left:5px;
+    padding:2%;
     
     
 }
@@ -29,8 +37,16 @@ body {
     background: white;
 }
 
-tr:hover {
-    background:  	#8A2BE2;
+#name {
+    margin-left: 10%;
+}
+
+tr:hover  .ans  {
+    background-color:  	#8A2BE2;
+    border: 2px;
+    border-color: 	#8A2BE2;
+    border-style: inset ;
+    border-radius: 4px;
 }
 
 .tab {
@@ -38,11 +54,20 @@ tr:hover {
     
 }
 
+.ask {
+    min-width: 75px;
+}
+
 .tab1{
     margin:10%;
+    margin-left: 1%;
     background: #6495ED;
     justify-content: center;
     text-align: center;
+}
+
+.ans {
+    
 }
 
 td {
@@ -58,9 +83,12 @@ td {
     justify-content: center;
 }
 
+footer > a {
+    margin-left: 10%;
+}
 
 #fb{
-   
+   margin-left: 0%;
 }
 
 #ln {
